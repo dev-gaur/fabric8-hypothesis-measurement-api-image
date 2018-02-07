@@ -1,5 +1,5 @@
 {
-  "name": "measurement-api-image",
+  "name": "fabric8-hypothesis-measurement-api-image",
   "version": "1.0.0",
   "description": "Instantiation of measurement-api along with its respective build and deploy scripts reside here",
   "main": "main.js",
@@ -10,24 +10,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fabric8-hdd/measurement-api-image.git"
+    "url": "git+https://github.com/fabric8-hdd/fabric8-measurement-api-image.git"
   },
   "keywords": [],
   "author": "Devang Gaur <dgaur@redhat.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fabric8-hdd/measurement-api-image/issues"
+    "url": "https://github.com/fabric8-hdd/fabric8-measurement-api-image/issues"
   },
-  "homepage": "https://github.com/fabric8-hdd/measurement-api-image#readme",
+  "homepage": "https://github.com/fabric8-hdd/fabric8-measurement-api-image#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "hypothesis-core-image": "github:fabric8-hdd/hypothesis-core-image.git",
-    "measurement-api": "github:fabric8-hdd/measurement-api.git"
+    "fabric8-hypothesis-core-image": "github:fabric8-hdd/fabric8-hypothesis-core-image.git",
+    "fabric8-hypothesis-measurement-api": "github:fabric8-hdd/fabric8-hypothesis-measurement-api.git"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
-    "eslint": "^4.16.0",
+    "eslint": "^4.17.0",
     "mocha": "^5.0.0"
   }
 }
