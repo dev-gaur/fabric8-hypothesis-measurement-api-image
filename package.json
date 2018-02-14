@@ -22,7 +22,7 @@
   "dependencies": {
     "express": "^4.16.2",
     "fabric8-hypothesis-core-image": "github:fabric8-hdd/fabric8-hypothesis-core-image.git",
-    "fabric8-hypothesis-measurement-api": "github:fabric8-hdd/fabric8-hypothesis-measurement-api.git"
+    "fabric8-hypothesis-measurement-api": "github:dev-gaur/fabric8-hypothesis-measurement-api.git"
   },
   "devDependencies": {
     "chai": "^4.1.2",

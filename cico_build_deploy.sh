@@ -4,7 +4,6 @@ set -ex
 
 . app_constants.sh
 
-curl -O ${env_script_location}
 . setup_env.sh
 setup_env
 

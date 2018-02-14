@@ -6,7 +6,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 var port = process.env.APP_PORT || 9090
-var routes = require("./node_modules/measurement-api/src/api/routes.js")
+var routes = require("./node_modules/fabric8-hypothesis-measurement-api/src/api/routes.js")
 
 routes(app, process.env.ROUTE_PATH + process.env.ROUTE_PREFIX)
 
